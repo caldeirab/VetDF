@@ -30,7 +30,7 @@ const Index = () => {
     </div>
     <Button 
       className="bg-green-500 hover:bg-green-600 flex items-center gap-2"
-      onClick={() => window.open(`https://wa.me/5561999999999?text=${encodeURIComponent("Olá, gostaria de agendar uma consulta para meu pet.")}`, "_blank")}
+      onClick={() => window.open(`https://wa.me/5561995995728?text=${encodeURIComponent("Olá, gostaria de agendar uma consulta para meu pet.")}`, "_blank")}
     >
       <LogoWhatsapp className="h-5 w-5" />
       WhatsApp
@@ -59,7 +59,7 @@ const Index = () => {
                 <Button 
                  
                   className="bg-green-500 hover:bg-green-600 text-white text-lg py-6 px-8 flex items-center gap-2"
-                  onClick={() => window.open(`https://wa.me/5561999999999?text=${encodeURIComponent("Olá, gostaria de agendar uma consulta para meu pet.")}`, "_blank")}
+                  onClick={() => window.open(`https://wa.me/5561995995728?text=${encodeURIComponent("Olá, gostaria de agendar uma consulta para meu pet.")}`, "_blank")}
                 >
                   <LogoWhatsapp className="h-6 w-6" />
                   Fale Conosco no WhatsApp
@@ -173,7 +173,7 @@ const Index = () => {
                 <Phone className="h-6 w-6 text-teal-600 mr-4 mt-1" />
                 <div>
                   <h3 className="font-bold text-gray-800">Telefone</h3>
-                  <p className="text-red-600">+55 (61) 9999-9999</p>
+                  <p className="text-red-600">+55 (61) 99599-5728</p>
                 </div>
               </div>
 
@@ -203,7 +203,7 @@ const Index = () => {
               <div className="mt-8 flex justify-center">
                 <Button 
                   className="bg-green-500 hover:bg-green-600 text-white text-lg py-6 px-8 flex items-center gap-2"
-                  onClick={() => window.open(`https://wa.me/5561999999999?text=${encodeURIComponent("Olá, gostaria de agendar uma consulta para meu pet.")}`, "_blank")}
+                  onClick={() => window.open(`https://wa.me/5561995995728?text=${encodeURIComponent("Olá, gostaria de agendar uma consulta para meu pet.")}`, "_blank")}
                 >
                   <LogoWhatsapp className="h-6 w-6" />
                   Agendar Consulta via WhatsApp
