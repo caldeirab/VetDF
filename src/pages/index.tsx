@@ -228,7 +228,7 @@ const Index = () => {
       </footer>
 
       {/* Botão flutuante do WhatsApp */}
-      <BotaoWhatsApp numeroTelefone="5561999999999" mensagem="Olá, gostaria de agendar uma consulta para meu pet." />
+      <BotaoWhatsApp numeroTelefone="5561995995728" mensagem="Olá, gostaria de agendar uma consulta para meu pet." />
    
     </div>
   );
