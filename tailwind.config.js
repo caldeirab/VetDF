@@ -4,6 +4,9 @@ export default {
 	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 	theme: {
 	  extend: {
+		fontFamily: {
+		  playfair: ['"Playfair Display"', 'serif'],
+		},
 		borderRadius: {
 		  lg: 'var(--radius)',
 		  md: 'calc(var(--radius) - 2px)',
@@ -87,7 +90,6 @@ export default {
 			950: '#052e16',
 		  },
 		},
-		// Adicionando a animação suave de piscar
 		keyframes: {
 		  blink: {
 			'0%, 100%': { opacity: '1' },
