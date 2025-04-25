@@ -52,7 +52,9 @@ const Index = () => {
               <div className="mb-8 rounded-lg overflow-hidden shadow-xl mx-auto w-64">
                 <img src="/vet-dog.jpeg" alt="Veterinário cuidando de um cão" className="w-full h-auto" />
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold mb-6 text-center"><span className="text-red-600">Ortopedias e Radiologia Veterinária Especializadas</span></h1>
+              <h1 className="text-4xl md:text-5xl font-playfair font-bold mb-6 text-center">
+  <span className="text-red-600 text-stroke">Ortopedias e Radiologia Veterinária Especializadas</span>
+</h1>
               <div className="flex justify-center">
                 <br>
                 </br>
