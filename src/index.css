@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap');
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -16,12 +15,20 @@
     font-family: 'Lora', serif;
     @apply bg-background text-foreground;
   }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
 }
 
 :root {
   color-scheme: light only;
 
-  --background: 0 0% 100%;  
+  --background: 0 0% 100%;
   --foreground: 0 0% 3.9%;
   --card: 0 0% 100%;
   --card-foreground: 0 0% 3.9%;
@@ -56,39 +63,26 @@
   --sidebar-ring: 217.2 91.2% 59.8%;
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-}
-
 main {
   @apply min-h-screen w-full;
 }
 
+/* Cores personalizadas */
 .bg-teal-600 {
   background-color: #0d9488;
 }
-
 .bg-teal-700 {
   background-color: #0f766e;
 }
-
 .bg-teal-100 {
   background-color: #ccfbf1;
 }
-
 .text-teal-600 {
   color: #0d9488;
 }
-
 .hover\:bg-teal-700:hover {
   background-color: #0f766e;
 }
-
 .hover\:text-teal-600:hover {
   color: #0d9488;
 }
@@ -103,6 +97,7 @@ img {
   display: block;
 }
 
+/* Responsivo para mobile */
 @media (max-width: 768px) {
   h1 {
     font-size: 1.5rem;
@@ -132,6 +127,7 @@ img {
   }
 }
 
+/* Garante que o fundo e texto fiquem corretos mesmo com override */
 html, body {
   background-color: hsl(0, 0%, 100%) !important;
   color: hsl(0, 0%, 3.9%) !important;
@@ -143,22 +139,12 @@ body.dark,
   --background: 0 0% 100% !important;
   --foreground: 0 0% 3.9% !important;
 }
-.text-stroke {
-  position: relative;
-  display: inline-block;
-  color: red; /* Cor do texto principal */
-  text-shadow: 
-    1px 1px 2px white,   /* Borda branca suave */
-    0 0 25px rgba(255, 255, 255, 0.3); /* Sombra suave branca */
-}
 
-.text-stroke::before {
-  content: "Ortopedias e Radiologia Veterinária Especializadas"; /* Texto para a borda */
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: red; /* Cor do texto */
-  z-index: -1; /* Coloca a borda atrás do texto */
-  -webkit-background-clip: text; /* Garante que a borda segue a forma do texto */
+/* Estilo utilitário para contorno suave no texto */
+@layer utilities {
+  .text-outline {
+    color: white;
+    -webkit-text-stroke: 0.1px black;
+    text-stroke: 0.1px black;
+  }
 }
-
