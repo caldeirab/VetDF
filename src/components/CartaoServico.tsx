@@ -28,7 +28,7 @@ export function CartaoServico({ titulo, descricao, icone, recursos }: CartaoServ
           {recursos.map((recurso, index) => (
             <li key={index} className="flex items-start">
               <Check className="h-5 w-5 text-teal-600 mr-2 mt-0.5" />
-              <span className="text-red-600">{recurso}</span>
+              <span className="text-black">{recurso}</span> {/* Alterado para texto preto */}
             </li>
           ))}
         </ul>
