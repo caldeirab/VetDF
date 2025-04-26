@@ -53,7 +53,7 @@ const Index = () => {
                 <img src="/vet-dog.jpeg" alt="Veterinário cuidando de um cão" className="w-full h-auto" />
               </div>
               <h1 className="text-4xl md:text-5xl font-playfair font-bold mb-6 text-center text-outline">
- Cirurgias Ortopedicas e Radiologia Veterinária Especializadas
+ Cirurgias Ortopédicas e Radiologia Veterinária Especializadas
 </h1>
 
               <div className="flex justify-center">
