@@ -52,9 +52,10 @@ const Index = () => {
               <div className="mb-8 rounded-lg overflow-hidden shadow-xl mx-auto w-64">
                 <img src="/vet-dog.jpeg" alt="Veterinário cuidando de um cão" className="w-full h-auto" />
               </div>
-              <h1 className="text-4xl md:text-5xl font-playfair font-bold mb-6 text-center">
-  <span className="text-red-600 text-stroke">Ortopedias e Radiologia Veterinária Especializadas</span>
+              <h1 className="text-4xl md:text-5xl font-playfair font-bold mb-6 text-center text-outline">
+  Ortopedias e Radiologia Veterinária Especializadas
 </h1>
+
               <div className="flex justify-center">
                 <br>
                 </br>
@@ -76,8 +77,12 @@ const Index = () => {
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
-              <h1 className="text-3xl font-bold text-gray-800 mb-4"><span className="text-red-600 font-semibold">Nossos serviços especializados em ortopedia e radiologia estão disponíveis para diversos tipos de animais, 24H.</span></h1>
-              
+            <h1 className="text-3xl font-bold text-gray-800 mb-4">
+     <span className="font-semibold">
+    Nossos serviços especializados em ortopedia e radiologia estão disponíveis para diversos tipos de animais, 
+    <span className="text-red-600"> 24H</span>.
+     </span>
+           </h1>   
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <Card className="text-center hover:shadow-lg transition-shadow">
@@ -88,7 +93,8 @@ const Index = () => {
                   <CardTitle className="mt-4">Cães</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-red-600">Cuidados ortopédicos especializados para todas as raças de cães, de pequeno a grande portes.</p>
+                <p className="text-black !important">Cuidados ortopédicos especializados para todas as raças de cães, de pequeno a grande portes.</p>
+
                 </CardContent>
               </Card>
 
@@ -100,7 +106,7 @@ const Index = () => {
                   <CardTitle className="mt-4">Gatos</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-red-600">Tratamentos suaves e eficazes para gatos com condições ortopédicas.</p>
+                  <p className="text-black !important">Tratamentos suaves e eficazes para gatos com condições ortopédicas.</p>
                 </CardContent>
               </Card>
 
@@ -112,7 +118,7 @@ const Index = () => {
                   <CardTitle className="mt-4">Silvestres</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-red-600">Tratamento especializado para animais silvestres com necessidades ortopédicas.</p>
+                  <p className="text-black !important">Tratamento especializado para animais silvestres com necessidades ortopédicas.</p>
                 </CardContent>
               </Card>
             </div>
@@ -123,7 +129,7 @@ const Index = () => {
         <section id="servicos" className="py-16">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-red-600 mb-4">CIRURGIAS DE EMERGÊNCIA E IMEDIATAS</h2>
+              <h2 className="text-3xl font-bold text-black !important mb-4">CIRURGIAS DE EMERGÊNCIA E IMEDIATAS</h2>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -159,8 +165,8 @@ const Index = () => {
         <section id="galeria" className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-red-600 mb-4">Galeria de Casos</h2>
-              <p className="text-red-600 max-w-2xl mx-auto">Conheça nossos casos de sucesso em ortopedia e radiologia veterinária.</p>
+              <h2 className="text-3xl font-bold text-black mb-4">Galeria de Casos</h2>
+              <p className="text-black max-w-2xl mx-auto">Conheça nossos casos de sucesso em ortopedia e radiologia veterinária.</p>
             </div>
             <GaleriaImagens />
           </div>
@@ -169,13 +175,13 @@ const Index = () => {
         {/* Contato */}
         <section id="contato" className="py-16">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-red-600 mb-6 text-center">Entre em Contato</h2>
+            <h2 className="text-3xl font-bold text-black mb-6 text-center">Entre em Contato</h2>
             <div className="max-w-2xl mx-auto space-y-6">
               <div className="flex items-start">
                 <Phone className="h-6 w-6 text-teal-600 mr-4 mt-1" />
                 <div>
                   <h3 className="font-bold text-gray-800">Telefone</h3>
-                  <p className="text-red-600">+55 (61) 99599-5728</p>
+                  <p className="text-black">+55 (61) 99599-5728</p>
                 </div>
               </div>
 
@@ -183,7 +189,7 @@ const Index = () => {
                 <Mail className="h-6 w-6 text-teal-600 mr-4 mt-1" />
                 <div>
                   <h3 className="font-bold text-gray-800">Email</h3>
-                  <p className="text-red-600">vetdf.ortopedia@gmail.com</p>
+                  <p className="text-black">vetdf.ortopedia@gmail.com</p>
                 </div>
               </div>
 
@@ -195,7 +201,7 @@ const Index = () => {
     <h3 className="font-bold text-gray-800">Horário de Funcionamento <span className="text-red-600">24h</span>
 </h3>
     <ul className="text-gray-600">
-      <li><span className="text-red-600">Segunda a Domingo</span>
+      <li><span className="text-black">Segunda a Domingo</span>
       </li>
       
     </ul>
